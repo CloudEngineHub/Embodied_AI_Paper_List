@@ -2083,9 +2083,11 @@ To be updated...
 ## Other Useful Embodied Projects & Tools
 
 ### Resources
-[Awesome-Embodied-Agent-with-LLMs](https://github.com/zchoi/Awesome-Embodied-Agent-with-LLMs)     
-[Awesome Embodied Vision](https://github.com/ChanganVR/awesome-embodied-vision)  
-[Awesome Touch](https://github.com/linchangyi1/Awesome-Touch)  
+[Awesome-Embodied-Agent-with-LLMs](https://github.com/zchoi/Awesome-Embodied-Agent-with-LLMs)    
+[Awesome Embodied Vision](https://github.com/ChanganVR/awesome-embodied-vision)    
+[Awesome Touch](https://github.com/linchangyi1/Awesome-Touch)    
+[Awesome VLA Study](https://github.com/MilkClouds/awesome-vla-study)    
+
 ### Simulate Platforms & Enviroments
 [Habitat-Lab](https://github.com/facebookresearch/habitat-lab)    
 [Habitat-Sim](https://github.com/facebookresearch/habitat-sim)    
