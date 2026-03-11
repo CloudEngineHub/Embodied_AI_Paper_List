@@ -33,6 +33,7 @@
 Embodied Artificial Intelligence (Embodied AI) is crucial for achieving Artificial General Intelligence (AGI) and serves as a foundation for various applications (e.g., intelligent mechatronics systems, smart manufacturing) that bridge cyberspace and the physical world. Recently, the emergence of Multi-modal Large Models (MLMs) and World Models (WMs) have attracted significant attention due to their remarkable perception, interaction, and reasoning capabilities, making them a promising architecture for embodied agents. In this survey, we give a comprehensive exploration of the latest advancements in Embodied AI. Our analysis firstly navigates through the forefront of representative works of embodied robots and simulators, to fully understand the research focuses and their limitations. Then, we analyze four main research targets: 1) embodied perception, 2) embodied interaction, 3) embodied agent, and 4) sim-to-real adaptation, covering state-of-the-art methods, essential paradigms, and comprehensive datasets. Additionally, we explore the complexities of MLMs in virtual and real embodied agents, highlighting their significance in facilitating interactions in digital and physical environments.  Finally, we summarize the challenges and limitations of embodied AI and discuss potential future directions. We hope this survey will serve as a foundational reference for the research community. 
 
 ## :collision: Update Log 
+* [2026.03.11] Updated paper list with latest 2025-2026 papers across all categories!
 * [2025.05.27] Our Embodied AI Survey paper is accepted by IEEE/ASME Transactions on Mechatronics!
 * [2024.09.08] We are constantly updating the Dataset section!
 * [2024.08.31] We added the Datasets section and classified the useful projects!
@@ -56,6 +57,38 @@ Embodied Artificial Intelligence (Embodied AI) is crucial for achieving Artifici
 - [Datasets](#datasets)
 
 ## <a id="books-surveys"> Books & Surveys <a href="#table-of-contents">🔝</a> </a> 
+
+* **Self-evolving Embodied AI**, arXiv:2602.04411, 2026       
+Tongtong Feng, Xin Wang, Wenwu Zhu.        
+[[Paper](https://arxiv.org/pdf/2602.04411)]
+
+* **Towards Robust and Secure Embodied AI: A Survey on Vulnerabilities and Attacks**, arXiv:2502.13175, 2025       
+Wenpeng Xing, Minghao Li, Mohan Li, Meng Han.        
+[[Paper](https://arxiv.org/pdf/2502.13175)]
+
+* **From Screens to Scenes: A Survey of Embodied AI in Healthcare**, arXiv:2501.07468, 2025       
+Yihao Liu, Xu Cao, Tingting Chen, Yankai Jiang, Junjie You, Minghua Wu, Xiaosong Wang, Mengling Feng, Yaochu Jin, Jintai Chen.        
+[[Paper](https://arxiv.org/pdf/2501.07468)]
+
+* **Semantic Mapping in Indoor Embodied AI -- A Survey**, arXiv:2501.05750, 2025       
+Sonia Raychaudhuri, Angel X. Chang.        
+[[Paper](https://arxiv.org/pdf/2501.05750)]
+
+* **A Comprehensive Survey on World Models for Embodied AI**, arXiv:2510.16732, 2025       
+Xinqing Li, Xin He, Le Zhang, Min Wu, Xiaoli Li, Yun Liu.        
+[[Paper](https://arxiv.org/pdf/2510.16732)]
+
+* **Generative Artificial Intelligence in Robotic Manipulation: A Survey**, arXiv:2503.03464, 2025       
+Kun Zhang, Peng Yun, Jun Cen, Junhao Cai, Didi Zhu, Hangjie Yuan, Chao Zhao, Tao Feng, Michael Yu Wang, Qifeng Chen, Jia Pan, Wei Zhang, Bo Yang, Hua Chen.        
+[[Paper](https://arxiv.org/pdf/2503.03464)]
+
+* **Dexterous Manipulation through Imitation Learning: A Survey**, arXiv:2504.03515, 2025       
+Shan An, Ziyu Meng, Chao Tang, Yuning Zhou, Tengyu Liu, Fangqiang Ding, Shufang Zhang, Yao Mu, Ran Song, Wei Zhang, Zeng-Guang Hou, Hong Zhang.        
+[[Paper](https://arxiv.org/pdf/2504.03515)]
+
+* **Humanoid Robots and Humanoid AI: Review, Perspectives and Directions**, arXiv:2405.15775, 2025       
+Longbing Cao.        
+[[Paper](https://arxiv.org/pdf/2405.15775)]
 
 * **A Survey of Robotic Navigation and Manipulation with Physics Simulators in the Era of Embodied AI**, arXiv:2505.01458, 2025       
 Lik Hang Kenny Wong, Xueyang Kang, Kaixin Bai, Jianwei Zhang.        
@@ -162,6 +195,14 @@ Echeverria, Gilberto and Lassabe, Nicolas and Degroote, Arnaud and Lemaignan, S{
 
 ### Real-Scene Based Simulators
 
+* **RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning**, arXiv, 2025  
+Haoran Geng, Feishi Wang, Songlin Wei, Yuyang Li, Bangjun Wang, Boshi An, Charlie Tianyue Cheng, Haozhe Lou, Peihao Li, Yen-Jen Wang, Yutong Liang, Dylan Goetting, Chaoyi Xu, Haozhe Chen, Yuxi Qian, Yiran Geng, Jiageng Mao, Weikang Wan, Mingtong Zhang, Jiangran Lyu, Siheng Zhao, Jiazhao Zhang, Jialiang Zhang, Chengyang Zhao, Haoran Lu, Yufei Ding, Ran Gong, Yuran Wang, Yuxuan Kuang, Ruihai Wu, Baoxiong Jia, Carlo Sferrazza, Hao Dong, Siyuan Huang, Yue Wang, Jitendra Malik, Pieter Abbeel.   
+[[page](https://arxiv.org/pdf/2504.18904)]
+
+* **Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning**, arXiv, 2025  
+Mayank Mittal, Pascal Roth, James Tigue, Antoine Richard, Octi Zhang, Peter Du, Antonio Serrano-Muñoz, Xinjie Yao, René Zurbrügg, Nikita Rudin, Lukasz Wawrzyniak, Milad Rakhsha, Alain Denzler, Eric Heiden, Ales Borovicka, Ossama Ahmed, Iretiayo Akinola, Abrar Anwar, Mark T. Carlson, Ji Yuan Feng, Animesh Garg.   
+[[page](https://arxiv.org/pdf/2511.04831)]
+
 * **InfiniteWorld: A Unified Scalable Simulation Framework for General Visual-Language Robot Interaction**, arxiv, 2024  
 Pengzhen Ren, Min Li, Zhen Luo, Xinshuai Song, Ziwei Chen, Weijia Liufu, Yixuan Yang, Hao Zheng, Rongtao Xu, Zitong Huang, Tongsheng Ding, Luyang Xie, Kaidong Zhang, Changfei Fu, Yang Liu, Liang Lin, Feng Zheng, Xiaodan Liang.   
 [[page](https://arxiv.org/pdf/2412.05789)]
@@ -217,6 +258,14 @@ Kolve, Eric, Roozbeh, Mottaghi, Daniel, Gordon, Yuke, Zhu, Abhinav, Gupta, Ali, 
 
 ## <a id="perception">  Embodied Perception <a href="#table-of-contents">🔝</a> </a>
 ### Active Visual Exploration
+
+* **ActiveGAMER: Active GAussian Mapping through Efficient Rendering**, CVPR, 2025.  
+Liyan Chen, Huangying Zhan, Kevin Chen, Xiangyu Xu, Qingan Yan, Changjiang Cai, Yi Xu.  
+[[Paper](https://arxiv.org/abs/2501.06897)]
+
+* **ActiveGS: Active Scene Reconstruction Using Gaussian Splatting**, RA-L, 2025.  
+Liren Jin, Xingguang Zhong, Yue Pan, Jens Behley, Cyrill Stachniss, Marija Popović.  
+[[Paper](https://arxiv.org/abs/2412.17769)]
 
 * **RoboTracer: Mastering Spatial Trace with Reasoning in Vision-Language Models for Robotics**, arxiv, 2025.  
 Enshen Zhou, Cheng Chi, Yibo Li, Jingkun An, Jiayuan Zhang, Shanyu Rong, Yi Han, Yuheng Ji, Mengzhen Liu, Pengwei Wang, Zhongyuan Wang, Lu Sheng, Shanghang Zhang.  
@@ -423,6 +472,14 @@ Klein, Georg, David, Murray.
 [[page]](https://ieeexplore.ieee.org/abstract/document/4538852/)
 
 ### 3D Visual Perception and Grounding
+* **ReasonGrounder: LVLM-Guided Hierarchical Feature Splatting for Open-Vocabulary 3D Visual Grounding**, CVPR, 2025  
+Zhenyang Liu, Yikai Wang, Sixiao Zheng, Tongying Pan, Longfei Liang, Yanwei Fu, Xiangyang Xue.  
+[[page]](https://arxiv.org/pdf/2503.23297)
+
+* **ViGiL3D: A Linguistically Diverse Dataset for 3D Visual Grounding**, arXiv, 2025  
+Austin T. Wang, ZeMing Gong, Angel X. Chang.  
+[[page]](https://arxiv.org/pdf/2501.01366)
+
 * **UAD: Unsupervised Affordance Distillation for Generalization in Robotic Manipulation**, ICRA, 2025
 Yihe Tang, Wenlong Huang, Yingke Wang, Chengshu Li, Roy Yuan, Ruohan Zhang, Jiajun Wu, Li Fei-Fei  
 [[page]](https://openreview.net/pdf?id=an953WOpo2)
@@ -605,6 +662,22 @@ Achlioptas, Panos and Abdelreheem, Ahmed and Xia, Fei and Elhoseiny, Mohamed and
 
 
 ### Visual Language Navigation
+
+* **WMNav: Integrating Vision-Language Models into World Models for Object Goal Navigation**, IROS, 2025.       
+Dujun Nie, Xianda Guo, Yiqun Duan, Ruijun Zhang, Long Chen.             
+[[Paper](https://arxiv.org/abs/2503.02247)] [[Project](https://b0b8k1ng.github.io/WMNav/)]
+
+* **SmartWay: Enhanced Waypoint Prediction and Backtracking for Zero-Shot Vision-and-Language Navigation**, IROS, 2025.       
+Xiangyu Shi, Zerui Li, Wenqi Lyu, Jiatong Xia, Feras Dayoub, Yanyuan Qiao, Qi Wu.             
+[[Paper](https://arxiv.org/abs/2503.10069)]
+
+* **EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents**, arXiv, 2025.       
+Rui Yang, Hanyang Chen, Junyu Zhang, Mark Zhao, Cheng Qian, Kangrui Wang, Qineng Wang, Teja Venkat Koripella, Marziyeh Movahedi, Manling Li, Heng Ji, Huan Zhang, Tong Zhang.             
+[[Paper](https://arxiv.org/abs/2502.09560)] [[Project](https://embodiedbench.github.io)]
+
+* **MapNav: A Novel Memory Representation via Annotated Semantic Maps for VLM-based Vision-and-Language Navigation**, arXiv, 2025.       
+Lingfeng Zhang, Xiaoshuai Hao, Qinwen Xu, Qiang Zhang, Xinyao Zhang, Pengwei Wang, Jing Zhang, Zhongyuan Wang, Shanghang Zhang, Renjing Xu.             
+[[Paper](https://arxiv.org/abs/2502.13451)]
 
 * **Towards Long-Horizon Vision-Language Navigation: Platform, Benchmark and Method**, CVPR, 2025.       
 Xinshuai Song, Weixing Chen, Yang Liu, Weikai Chen, Guanbin Li, Liang Lin.             
@@ -855,6 +928,22 @@ Xin Eric Wang, , Wenhan Xiong, Hongmin Wang, William Yang Wang.
 [[page](https://arxiv.org/pdf/1803.07729)]     
 
 ### Non-Visual Perception: Tactile
+
+* **Sensor-Invariant Tactile Representation (SITR)**, ICLR, 2025.    
+Harsh Gupta, Yuchen Mo, Shengmiao Jin, Wenzhen Yuan.    
+[[page](https://arxiv.org/abs/2502.19638)]
+
+* **Reactive Diffusion Policy: Slow-Fast Visual-Tactile Policy Learning for Contact-Rich Manipulation**, RSS, 2025.    
+Han Xue, Jieji Ren, Wendi Chen, Gu Zhang, Yuan Fang, Guoying Gu, Huazhe Xu, Cewu Lu.    
+[[page](https://arxiv.org/abs/2503.02881)]
+
+* **3D-ViTac: Learning Fine-Grained Manipulation with Visuo-Tactile Sensing**, CoRL, 2024.    
+Binghao Huang, Yixuan Wang, Xinyi Yang, Yiyue Luo, Yunzhu Li.    
+[[page](https://arxiv.org/abs/2410.24091)]
+
+* **TacSL: A Library for Visuotactile Sensor Simulation and Learning**, IEEE TRO, 2025.    
+Iretiayo Akinola, Jie Xu, Jan Carius, Dieter Fox, Yashraj Narang.    
+[[page](https://arxiv.org/abs/2408.06506)]
 
 * **When Vision Meets Touch: A Contemporary Review for Visuotactile Sensors from the Signal Processing Perspective**, Arxiv, 2024.    
 Li, Shoujie and Wang, Zihan and Wu, Changsheng and Li, Xiang and Luo, Shan and Fang, Bin and Sun, Fuchun and Zhang, Xiao-Ping and Ding, Wenbo.    
@@ -1182,6 +1271,10 @@ Fishel, Jeremy A and Loeb, Gerald E.
 
 ## <a id="interaction"> Embodied Interaction <a href="#table-of-contents">🔝</a> </a> 
 
+* **DexGrasp Anything: Towards Universal Robotic Dexterous Grasping with Physics Awareness**, arXiv, 2025     
+Yiming Zhong, Qi Jiang, Jingyi Yu, Yuexin Ma.       
+[[page]](https://arxiv.org/pdf/2503.08257)
+
 * **Beyond the Destination: A Novel Benchmark for Exploration-Aware Embodied Question Answering**, arxiv, 2025     
 Kaixuan Jiang, Yang Liu, Weixing Chen, Jingzhou Luo, Ziliang Chen, Ling Pan, Guanbin Li, Liang Lin.        
 [[page]](https://arxiv.org/pdf/2503.11117)
@@ -1401,6 +1494,50 @@ Yamauchi, Brian
 ## <a id="agent"> Embodied Agent <a href="#table-of-contents">🔝</a> </a> 
 
 ### Embodied Multimodal Foundation Models and VLA Methods
+* **π₀: A Vision-Language-Action Flow Model for General Robot Control**, arXiv, 2024.     
+Kevin Black, Noah Brown, Danny Driess, Adnan Esmail, Michael Equi, Chelsea Finn, Niccolo Fusai, Lachy Groom, Karol Hausman, Brian Ichter, Szymon Jakubczak, Tim Jones, Liyiming Ke, Sergey Levine, Adrian Li-Bell, Mohith Mothukuri, Suraj Nair, Karl Pertsch, Lucy Xiaoyang Shi, James Tanner, Quan Vuong, Anna Walling, Haohuan Wang, Ury Zhilinsky.     
+[[Paper](https://arxiv.org/abs/2410.24164)] [[Project](https://physicalintelligence.company/blog/pi0)]
+
+* **π₀.₅: A Vision-Language-Action Model with Open-World Generalization**, arXiv, 2025.     
+Physical Intelligence, Kevin Black, Noah Brown, James Darpinian, Karan Dhabalia, Danny Driess, Adnan Esmail, Michael Equi, Chelsea Finn, Niccolo Fusai, Manuel Y. Galliker, Dibya Ghosh, Lachy Groom, Karol Hausman, Brian Ichter, Szymon Jakubczak, Tim Jones, Liyiming Ke, Devin LeBlanc, Sergey Levine, Adrian Li-Bell, Mohith Mothukuri, Suraj Nair, Karl Pertsch, Allen Z. Ren, Laura Smith, Jost Tobias Springenberg, Kyle Stachowicz, James Tanner, Quan Vuong, Homer Walke, Anna Walling, Haohuan Wang, Lili Yu, Ury Zhilinsky.     
+[[Paper](https://arxiv.org/abs/2504.16054)] [[Project](https://www.physicalintelligence.company/blog/pi05)]
+
+* **GR00T N1: An Open Foundation Model for Generalist Humanoid Robots**, arXiv, 2025.     
+NVIDIA: Johan Bjorck, Fernando Castañeda, Nikita Cherniadev, Xingye Da, Runyu Ding, Linxi "Jim" Fan, Yu Fang, Dieter Fox, Fengyuan Hu, Spencer Huang, Joel Jang, Zhenyu Jiang, Jan Kautz, Yuke Zhu.     
+[[Paper](https://arxiv.org/abs/2503.14734)] [[Project](https://developer.nvidia.com/project-groot)]
+
+* **Gemini Robotics: Bringing AI into the Physical World**, arXiv, 2025.     
+Gemini Robotics Team, Google DeepMind.     
+[[Paper](https://arxiv.org/abs/2503.20020)] [[Project](https://deepmind.google/discover/blog/gemini-robotics/)]
+
+* **OpenVLA: An Open-Source Vision-Language-Action Model**, CoRL, 2024.     
+Moo Jin Kim, Karl Pertsch, Siddharth Karamcheti, Ted Xiao, Ashwin Balakrishna, Suraj Nair, Rafael Rafailov, Ethan Foster, Grace Lam, Pannag R. Sanketi, Quan Vuong, Thomas Kollar, Benjamin Burchfiel, Russ Tedrake, Dorsa Sadigh, Sergey Levine, Percy Liang, Chelsea Finn.     
+[[Paper](https://arxiv.org/abs/2406.09246)] [[Project](https://openvla.github.io/)]
+
+* **Octo: An Open-Source Generalist Robot Policy**, RSS, 2024.     
+Octo Model Team, Dibya Ghosh, Homer Walke, Karl Pertsch, Kevin Black, Oier Mees, Sudeep Dasari, Joey Hejna, Tobias Kreiman, Charles Xu, Jianlan Luo, You Liang Tan, Lawrence Yunliang Chen, Lerrel Pinto, Chelsea Finn, Sergey Levine.     
+[[Paper](https://arxiv.org/abs/2405.12213)] [[Project](https://octo-models.github.io/)]
+
+* **Magma: A Foundation Model for Multimodal AI Agents**, CVPR, 2025.     
+Jianwei Yang, Reuben Tan, Qianhui Wu, Ruijie Zheng, Baolin Peng, Yongyuan Liang, Yu Gu, Mu Cai, Seonghyeon Ye, Jongmin Jang, Yuquan Deng, Lars Lidén, Jianfeng Gao.     
+[[Paper](https://arxiv.org/abs/2502.13130)]
+
+* **UniVLA: Unified Vision-Language-Action Model**, RSS, 2025.     
+Yuqi Wang, Xinghang Li, Wenxuan Wang, Junbo Zhang, Yingyan Li, Yuntao Chen, Xinlong Wang, Zhaoxiang Zhang.     
+[[Paper](https://arxiv.org/abs/2506.19850)] [[Project](https://github.com/OpenDriveLab/UniVLA)]
+
+* **FAST: Efficient Action Tokenization for Vision-Language-Action Models**, arXiv, 2025.     
+Karl Pertsch, Kyle Stachowicz, Brian Ichter, Danny Driess, Suraj Nair, Quan Vuong, Sergey Levine, Chelsea Finn.     
+[[Paper](https://arxiv.org/abs/2501.09747)] [[Project](https://physicalintelligence.company/research/fast)]
+
+* **HumanPlus: Humanoid Shadowing and Imitation from Humans**, CoRL, 2024.     
+Zipeng Fu, Qingqing Zhao, Qi Wu, Gordon Wetzstein, Chelsea Finn.     
+[[Paper](https://arxiv.org/abs/2406.10454)] [[Project](https://humanoid-ai.github.io/)]
+
+* **ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills**, arXiv, 2025.     
+Tairan He, Jiawei Gao, Wenli Xiao, Yuanhang Zhang, Zi Wang, Jiashun Wang, Zhengyi Luo, Guanqi He, Nikhil Sobanbab, Chaoyi Pan, Zeji Yi, Guannan Qu, Kris Kitani, Jessica Hodgins, Linxi "Jim" Fan, Yuke Zhu, Changliu Liu, Guanya Shi.     
+[[Paper](https://arxiv.org/abs/2502.01143)]
+
 * **Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks**, arXiv, 2025.     
 Wenqi Zhang, Mengna Wang, Gangao Liu, Xu Huixin, Yiwei Jiang, Yongliang Shen, Guiyang Hou, Zhe Zheng, Hang Zhang, Xin Li, Weiming Lu, Peng Li, Yueting Zhuang     
 [[page](https://arxiv.org/abs/2503.21696)]
@@ -1482,6 +1619,26 @@ Brohan, Anthony, Noah, Brown, Justice, Carbajal, Yevgen, Chebotar, Joseph, Dabis
 [[page](https://arxiv.org/pdf/2212.06817)]    
 
 ### Embodied Manipulation & Control
+
+* **Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**, RSS, 2023.    
+Cheng Chi, Zhenjia Xu, Siyuan Feng, Eric Cousineau, Yilun Du, Benjamin Burchfiel, Russ Tedrake, Shuran Song.       
+[[page](https://arxiv.org/abs/2303.04137)] [[Project](https://diffusion-policy.cs.columbia.edu/)]
+
+* **ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning**, CVPR, 2025.    
+Kailin Li, Puhao Li, Tengyu Liu, Yuyang Li, Siyuan Huang.       
+[[page](https://arxiv.org/abs/2503.21860)]
+
+* **KStar Diffuser: Spatial-Temporal Graph Diffusion Policy with Kinematic Modeling for Bimanual Robotic Manipulation**, CVPR, 2025.    
+Qi Lv, Hao Li, Xiang Deng, Rui Shao, Yinchuan Li, Jianye Hao, Longxiang Gao, Michael Yu Wang, Liqiang Nie.       
+[[page](https://ieeexplore.ieee.org/document/11093774/)]
+
+* **AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems**, IROS, 2025.    
+AgiBot-World-Contributors, Qingwen Bu, Jisong Cai, Li Chen, Xiuqi Cui, Yan Ding, Siyuan Feng, Shenyuan Gao, Xindong He, Xuan Hu, Xu Huang, Shu Jiang, Yuxin Jiang, Hongyang Li, Jialu Li, Chiming Liu, Yi Liu, Yuxiang Lu, Jianlan Luo, Ping Luo, Yao Mu, Yuehan Niu, Yixuan Pan, Jiangmiao Pang, Yu Qiao.       
+[[page](https://arxiv.org/abs/2503.06669)] [[Project](https://github.com/OpenDriveLab/AgiBot-World)]
+
+* **Sim-and-Real Co-Training: A Simple Recipe for Vision-Based Robotic Manipulation**, arXiv, 2025.    
+Abhiram Maddukuri, Zhenyu Jiang, Lawrence Yunliang Chen, Soroush Nasiriany, Yuqi Xie, Yu Fang, Wenqi Huang, Zu Wang, Zhenjia Xu, Nikita Chernyadev, Scott Reed, Ken Goldberg, Ajay Mandlekar, Linxi Fan, Yuke Zhu.       
+[[page](https://arxiv.org/abs/2503.24361)]
 
 * **PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning**, NeurIPS, 2024.    
 Chengyang Ying, Zhongkai Hao, Xinning Zhou, Xuezhou Xu, Hang Su, Xingxing Zhang, Jun Zhu.       
@@ -1717,6 +1874,14 @@ Nicholas C. Metropolis, S. M. Ulam.
 
 
 ## <a id="sim-to-real"> Sim-to-Real Adaptation <a href="#table-of-contents">🔝</a> </a> 
+
+* **Phantom: Training Robots Without Robots Using Only Human Videos**, arXiv, 2025    
+Marion Lepert, Jiaying Fang, Jeannette Bohg.       
+[[page]](https://arxiv.org/pdf/2503.00779)
+
+* **Generalizable Humanoid Manipulation with 3D Diffusion Policies**, arXiv, 2025    
+Yanjie Ze, Zixuan Chen, Wenhao Wang, Tianyi Chen, Xialin He, Ying Yuan, Xue Bin Peng, Jiajun Wu.       
+[[page]](https://arxiv.org/pdf/2410.10803)
 
 * **VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks**, arxiv, 2024    
 Shiduo Zhang, Zhe Xu, Peiju Liu, Xiaopeng Yu, Yuan Li, Qinghui Gao, Zhaoye Fei, Zhangyue Yin, Zuxuan Wu, Yu-Gang Jiang, Xipeng Qiu                     
@@ -1988,6 +2153,8 @@ Miura, Hirofumi and Shimoyama, Isao
 
 ## <a id="datasets"> Datasets <a href="#table-of-contents">🔝</a> </a> 
 To be updated...     
+* **AgiBot World**, 2025. [[link]](https://github.com/OpenDriveLab/AgiBot-World)
+* **RoboVerse**, 2025. [[link]](https://roboverseorg.github.io/)
 * **RefSpatial**, 2025. [[link]](https://huggingface.co/datasets/JingkunAn/RefSpatial)
 * **VisualAgentBench**, 2023.[link](https://github.com/THUDM/VisualAgentBench)
 * **Open X-Embodiment**, 2023.[link](https://robotics-transformer-x.github.io/)
