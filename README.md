@@ -258,6 +258,9 @@ Kolve, Eric, Roozbeh, Mottaghi, Daniel, Gordon, Yuke, Zhu, Abhinav, Gupta, Ali, 
 
 ## <a id="perception">  Embodied Perception <a href="#table-of-contents">🔝</a> </a>
 ### Active Visual Exploration
+* **Toward Ambulatory Vision: Learning Visually-Grounded Active View Selection**, Arxiv, 2025.  
+Juil Koo*, Daehyeon Choi*, Sangwoo Youn*, Phillip Y. Lee, Minhyuk Sung.  
+[[Paper](https://arxiv.org/abs/2512.13250)]
 
 * **ActiveGAMER: Active GAussian Mapping through Efficient Rendering**, CVPR, 2025.  
 Liyan Chen, Huangying Zhan, Kevin Chen, Xiangyu Xu, Qingan Yan, Changjiang Cai, Yi Xu.  
