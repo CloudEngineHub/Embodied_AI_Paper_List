@@ -667,6 +667,10 @@ Achlioptas, Panos and Abdelreheem, Ahmed and Xia, Fei and Elhoseiny, Mohamed and
 
 ### Visual Language Navigation
 
+* **NavSpace: How Navigation Agents Follow Spatial Intelligence Instructions**, ICRA, 2026.       
+Haolin Yang, Yuxing Long, Zhuoyuan Yu, Zihan Yang, Minghan Wang, Jiapeng Xu, Yihan Wang, Ziyan Yu, Wenzhe Cai, Lei Kang, Hao Dong.             
+[[Paper](https://arxiv.org/abs/2510.08173)] [[Project](https://github.com/TidalHarley/NavSpace)]
+
 * **WMNav: Integrating Vision-Language Models into World Models for Object Goal Navigation**, IROS, 2025.       
 Dujun Nie, Xianda Guo, Yiqun Duan, Ruijun Zhang, Long Chen.             
 [[Paper](https://arxiv.org/abs/2503.02247)] [[Project](https://b0b8k1ng.github.io/WMNav/)]
@@ -2234,6 +2238,7 @@ To be updated...
 * **Room to Room (R2R)**, 2017. [[link]](https://paperswithcode.com/dataset/room-to-room)
 * **DivScene**, 2024.[[link]](https://github.com/zhaowei-wang-nlp/DivScene)
 * **LH-VLN**, 2025. [[link]](https://hcplab-sysu.github.io/LH-VLN/)
+* **NavSpace**, 2026. [[link]](https://github.com/TidalHarley/NavSpace)
  
 ### Embodied Question Answering
 
