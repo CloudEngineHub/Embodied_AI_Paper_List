@@ -196,6 +196,10 @@ Echeverria, Gilberto and Lassabe, Nicolas and Degroote, Arnaud and Lemaignan, S{
 
 ### Real-Scene Based Simulators
 
+* **UnrealZoo: Enriching Photo-realistic Virtual Worlds for Embodied AI**, ICCV Highlight, 2025<br>
+Fangwei Zhong, Kui Wu, Churan Wang, Hao Chen, Hai Ci, Zhoujun Li, Yizhou Wang.<br>
+[[paper](https://arxiv.org/abs/2412.20977), [page](https://unrealzoo.site/), [code](https://github.com/UnrealZoo/unrealzoo-gym)]
+
 * **RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning**, arXiv, 2025  
 Haoran Geng, Feishi Wang, Songlin Wei, Yuyang Li, Bangjun Wang, Boshi An, Charlie Tianyue Cheng, Haozhe Lou, Peihao Li, Yen-Jen Wang, Yutong Liang, Dylan Goetting, Chaoyi Xu, Haozhe Chen, Yuxi Qian, Yiran Geng, Jiageng Mao, Weikang Wan, Mingtong Zhang, Jiangran Lyu, Siheng Zhao, Jiazhao Zhang, Jialiang Zhang, Chengyang Zhao, Haoran Lu, Yufei Ding, Ran Gong, Yuran Wang, Yuxuan Kuang, Ruihai Wu, Baoxiong Jia, Carlo Sferrazza, Hao Dong, Siyuan Huang, Yue Wang, Jitendra Malik, Pieter Abbeel.   
 [[page](https://arxiv.org/pdf/2504.18904)]
